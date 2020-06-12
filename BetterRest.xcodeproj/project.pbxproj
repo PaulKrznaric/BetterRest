@@ -13,6 +13,7 @@
 		754DCB6D2491F76500A1AFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754DCB6C2491F76500A1AFDD /* Assets.xcassets */; };
 		754DCB702491F76500A1AFDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754DCB6F2491F76500A1AFDD /* Preview Assets.xcassets */; };
 		754DCB732491F76500A1AFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754DCB712491F76500A1AFDD /* LaunchScreen.storyboard */; };
+		75CBFEA02493564000E1D2A4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 75CBFE9F2493564000E1D2A4 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		754DCB6F2491F76500A1AFDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		754DCB722491F76500A1AFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		754DCB742491F76500A1AFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CBFE9F2493564000E1D2A4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				754DCB6C2491F76500A1AFDD /* Assets.xcassets */,
 				754DCB712491F76500A1AFDD /* LaunchScreen.storyboard */,
 				754DCB742491F76500A1AFDD /* Info.plist */,
+				75CBFE9F2493564000E1D2A4 /* SleepCalculator.mlmodel */,
 				754DCB6E2491F76500A1AFDD /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				754DCB672491F76400A1AFDD /* AppDelegate.swift in Sources */,
+				75CBFEA02493564000E1D2A4 /* SleepCalculator.mlmodel in Sources */,
 				754DCB692491F76400A1AFDD /* SceneDelegate.swift in Sources */,
 				754DCB6B2491F76400A1AFDD /* ContentView.swift in Sources */,
 			);
